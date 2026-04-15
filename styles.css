@@ -1,0 +1,91 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font và nền */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Section hướng dẫn */
+#instructions {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Tiêu đề */
+#instructions h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#instructions h3 {
+    margin-top: 15px;
+    color: #34495e;
+}
+
+/* List */
+#instructions ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#instructions li {
+    margin-bottom: 5px;
+}
+
+/* Code */
+code {
+    background: #eee;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 14px;
+}
